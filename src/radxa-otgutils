@@ -61,7 +61,7 @@ function_init()
             local GADGET="ffs.adb"
             ;;
         usbnet)
-            local GADGET="ecm.usb0"
+            local GADGET="ncm.usb0"
             ;;
     esac
 
@@ -83,7 +83,7 @@ function_stop()
             local GADGET="ffs.adb"
             ;;
         usbnet)
-            local GADGET="ecm.usb0"
+            local GADGET="ncm.usb0"
             ;;
     esac
 
